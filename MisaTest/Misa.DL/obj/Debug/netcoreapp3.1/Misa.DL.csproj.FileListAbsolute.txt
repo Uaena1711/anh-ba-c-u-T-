@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\MisaTest\Misa.DL\bin\Debug\netcoreapp3.1\Misa.DL.deps.json
+C:\Users\PC\source\repos\MisaTest\Misa.DL\bin\Debug\netcoreapp3.1\Misa.DL.dll
+C:\Users\PC\source\repos\MisaTest\Misa.DL\bin\Debug\netcoreapp3.1\Misa.DL.pdb
+C:\Users\PC\source\repos\MisaTest\Misa.DL\bin\Debug\netcoreapp3.1\MisaCommon.dll
+C:\Users\PC\source\repos\MisaTest\Misa.DL\bin\Debug\netcoreapp3.1\MisaCommon.pdb
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.AssemblyInfo.cs
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.csproj.CopyComplete
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.dll
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.pdb
+C:\Users\PC\source\repos\MisaTest\Misa.DL\obj\Debug\netcoreapp3.1\Misa.DL.csproj.CoreCompileInputs.cache
