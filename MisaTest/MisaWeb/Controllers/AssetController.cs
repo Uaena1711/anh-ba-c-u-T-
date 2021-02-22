@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace MisaWeb.Controllers
 {
     [Route("api/v1/[controller]")]
+    
     public class AssetController: BaseController<Asset>
     {
         private readonly IAssetBL assetBL;

@@ -318,11 +318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj",
       "projectName": "MisaCommon",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj",
+      "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\obj\\",
+      "outputPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

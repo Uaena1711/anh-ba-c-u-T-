@@ -7,3 +7,12 @@ C:\Users\PC\source\repos\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.
 C:\Users\PC\source\repos\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.dll
 C:\Users\PC\source\repos\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.pdb
 C:\Users\PC\source\repos\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\bin\Debug\netcoreapp3.1\MisaCommon.deps.json
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\bin\Debug\netcoreapp3.1\MisaCommon.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\bin\Debug\netcoreapp3.1\MisaCommon.pdb
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.AssemblyInfo.cs
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaCommon\obj\Debug\netcoreapp3.1\MisaCommon.pdb

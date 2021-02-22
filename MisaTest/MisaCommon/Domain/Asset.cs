@@ -18,7 +18,7 @@ namespace MisaCommon.Domain
 
 
     /// <summary>
-    /// Các kiểu dữ liệu của khách Hàng
+    /// Các kiểu dữ liệu của tài sản
     /// CreatedBy: PNHai (18/01/2022)
     /// </summary>
     public class Asset

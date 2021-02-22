@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\MisaServices.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\MisaServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\Misa.DL.csproj": {
+    "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\Misa.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\Misa.DL.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\Misa.DL.csproj",
         "projectName": "Misa.DL",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\Misa.DL.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\Misa.DL.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj": {
-                "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj"
+              "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj": {
+    "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj",
         "projectName": "MisaCommon",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\MisaCommon.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\MisaCommon.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaCommon\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\MisaServices.csproj": {
+    "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\MisaServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\MisaServices.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\MisaServices.csproj",
         "projectName": "MisaServices",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\MisaServices.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\MisaServices.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,8 +189,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\Misa.DL.csproj": {
-                "projectPath": "C:\\Users\\PC\\source\\repos\\MisaTest\\Misa.DL\\Misa.DL.csproj"
+              "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\Misa.DL.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\Misa.DL\\Misa.DL.csproj"
               }
             }
           }

@@ -45,6 +45,7 @@
         <input
           type="number"
           v-model="filterYear"
+          placeholder="Tìm theo năm"
         />
       </div>
       <div id="search-icon-me" >
@@ -58,22 +59,11 @@
       </div>
       
     </div>
-
-
-    <div id="table-scroll"
-      class="grid grid-employee el-table el-table--fit el-table--scrollable-y el-table--enable-row-hover el-table--enable-row-transition"
-    >
-      <table
-        id="header-fixed"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="el-table__body"
-        style="min-width: 100%"
-      >
-        <thead class="has-gutter">
-          <tr class="el-table__row">
-            <th
+    <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th
               colspan="1"
               rowspan="1"
               class="el-table_30_column_114 is-leaf"
@@ -84,7 +74,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_115 is-leaf"
               fieldName="IncreaseDate"
               formatType="dd/mm/yyyy"
               
@@ -94,7 +84,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_115 is-leaf"
+              class="el-table_30_column_116 is-leaf"
               fieldName="AssetCode"
             >
               <div class="cell">Mã tài sản</div>
@@ -102,7 +92,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_117 is-leaf"
               fieldName="AssetName"
             >
               <div class="cell">Tên tài sản</div>
@@ -111,7 +101,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_118 is-leaf"
               fieldName="AssetTypeId"
             >
               <div class="cell">Loại tài sản</div>
@@ -119,7 +109,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_119 is-leaf"
               fieldName="departmentId"
             >
               <div class="cell">Tên phòng ban</div>
@@ -127,7 +117,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_120 is-leaf"
               fieldName="orginalPrice"
             >
               <div class="cell">Nguyên giá </div>
@@ -135,7 +125,7 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_121 is-leaf"
               fieldName="orginalPrice"
             >
               <div class="cell">Hành động </div>
@@ -144,15 +134,19 @@
             <th
               colspan="1"
               rowspan="1"
-              class="el-table_30_column_116 is-leaf"
+              class="el-table_30_column_122 is-leaf"
               fieldName="orginalPrice"
             >
-              <div class="cell">Chọn</div>
+              <div class="cell">Bấm chọn để xóa </div>
             </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content ">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr
             class="el-table__row"
             v-for="(asset, index) in pageEmployee"
             :key="index"
@@ -181,12 +175,13 @@
             </td>
 
             <td>
+              <br>
             
-                  <a-icon  @click="rowOnClick(asset)" type="profile" />
+                  <a-icon :style="{ fontSize: '25px'}" @click="rowOnClick(asset)" type="profile" />
             
-                  <a-icon v-on:submit.prevent="deleteAsset" @click="deleteAsset(asset.assetId)"  type="delete" />
+                  <a-icon :style="{ fontSize: '25px'}" v-on:submit.prevent="deleteAsset" @click="deleteAsset(asset.assetId)"  type="delete" />
                 
-                  <a-icon @click="btnCopyClick(asset)" type="edit" />
+                  <a-icon :style="{ fontSize: '25px'}" @click="btnCopyClick(asset)" type="edit" />
               
             </td>
             <td>
@@ -195,16 +190,21 @@
             </td>
             
           </tr>
-        </tbody>
-      </table>
-    </div>
+      </tbody>
+    </table>
+  </div>
+  <div >
+        15 trên tổng số {{totalAsset}} tài sản
+      </div>
+
     <div class="paging-bar">
-      <jw-pagination :pageSize = "13"
+      
+      <jw-pagination :pageSize = "15"
         :items="assets"
         @changePage="onChangePage"
         :labels="customLabels"
       ></jw-pagination>
-    </div>
+    </div> -->
     
   </div>
 </template>
@@ -407,6 +407,7 @@ export default {
 
   data() {
     return {
+     
       assetType: [],
       department:[],
       selectedForDelete: [],
@@ -467,20 +468,19 @@ export default {
       }
       else 
       return true
-    }
+    },
+     totalAsset: function(){
+       return this.assets.length
+     }
   }
 };
 </script>
 <style lang="scss" scoped>
 
-#table-scroll {
-  height:612px;
-  overflow:auto;  
-  margin-top:20px;
-}
+
 
 table, th, td {
-  border: 1px solid black;
+  // border: 1px solid black;
   border-collapse: collapse;
 }
 .grid-employee {
@@ -530,6 +530,109 @@ table, th, td {
 
 #txtSearchEmployee {
   min-width: 300px;
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(39, 20, 20);
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+
+ }
+.tbl-content{
+  height:600px;
+   margin-top: 10px;
+  overflow-x:auto;
+ 
+ border: 1px solid #ccc;
+  
+  cursor: pointer;
+  /* background-image: url("/assets/img/default-avatar.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(3, 3, 3);
+  text-transform: uppercase;
+}
+td{
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: rgb(110, 103, 103);
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
 }
 </style>
 

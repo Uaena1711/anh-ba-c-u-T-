@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p8yOVOgn1xbbUKxJiFZy6xQ0zGjhJVxPA9cExviQCct3m3n6rbJuEGOur8zbz+GjMbRSz/bPpBiUYBJvlOT/sA==",
+  "dgSpecHash": "371gelF8/SFr6lM4s4Cvfcf5qfdW2YA8bPw7SNTnZBkoNVG2+8syPgyvCzPKy29mJPLNnv2vemEpwod3MMvlJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\MisaTest\\MisaServices\\MisaServices.csproj",
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\anh-ba-c-u-T-\\MisaTest\\MisaServices\\MisaServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",

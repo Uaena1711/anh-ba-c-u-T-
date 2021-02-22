@@ -12,3 +12,17 @@ C:\Users\PC\source\repos\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServi
 C:\Users\PC\source\repos\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.dll
 C:\Users\PC\source\repos\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.pdb
 C:\Users\PC\source\repos\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\MisaServices.deps.json
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\MisaServices.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\MisaServices.pdb
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\Misa.DL.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\MisaCommon.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\Misa.DL.pdb
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\bin\Debug\netcoreapp3.1\MisaCommon.pdb
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.AssemblyInfo.cs
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.csproj.CopyComplete
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.dll
+C:\Users\PC\source\repos\anh-ba-c-u-T-\MisaTest\MisaServices\obj\Debug\netcoreapp3.1\MisaServices.pdb
